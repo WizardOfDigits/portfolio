@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</Progress></title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .construction {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    .message {
+      font-size: 16px;
+      color: #555;
+      margin-top: 10px;
+      max-width: 400px;
+    }
+    .loader {
+      border: 5px solid gray;
+      border-top: 5px solid black;
+      border-radius: 60%;
+      width: 60px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin-top: 20px;
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <body>
+    <div class="construction">🚧 Website is under construction...🚧</div>
+    <div class="message">Iam working on my Portfolio website.</div>
+    <div class="loader"></div>
+  </body>
+</html>
